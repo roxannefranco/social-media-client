@@ -3,10 +3,9 @@ name: Deploy static content to Pages
 
 on:
   # Runs on merge
-  pull_request:
+  push:
     branches:
-      - master
-    types: [closed]
+      - workflow
     
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
