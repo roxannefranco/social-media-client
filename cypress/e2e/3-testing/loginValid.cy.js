@@ -1,4 +1,4 @@
-describe('Test login', () => {
+describe('Test login with valid credentials', () => {
   it('can log in with the login form with valid credentials', () => {
     cy.visit('/')
     cy.wait(1000)
